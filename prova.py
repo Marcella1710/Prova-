@@ -11,12 +11,12 @@ st.set_page_config(
 st.subheader("Exercício Projetos")
 
 code = '''
-df = pd.read_csv("https://raw.githubusercontent.com/nathalycordsil/lista4/main/projetos.csv", sep=";") 
+df = pd.read_csv("https://github.com/Marcella1710/Prova-/blob/main/projetos.csv", sep=";") 
 st.dataframe(df.head(23))
 '''
 st.code(code, language='python')
 
-df = pd.read_csv("https://raw.githubusercontent.com/nathalycordsil/lista4/main/projetos.csv", sep=";") 
+df = pd.read_csv("https://github.com/Marcella1710/Prova-/blob/main/projetos.csv", sep=";") 
 st.dataframe(df.head(23))
 
 st.write("O dataframe foi atualizado adicionando mais uma linha ao final com os dados referentes ao mês de dezembro de 2023.")
